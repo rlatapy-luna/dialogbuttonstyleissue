@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Custom.MaterialAlertDialog</item>
+    </style>
+
+    <style name="ThemeOverlay.Custom.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton</item>
+    </style>
+
+</resources>
